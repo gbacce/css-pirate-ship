@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sailboat</title>
+	<title>Pirate Ship</title>
 	<style type="text/css" media="screen">
 
 		body {
 			position: relative;
 			height: 100vh;
 			margin: 0;
+			background-color: darkslategrey;
 		}
 
-		.water {
+		.ocean {
 			position: absolute;
-			background-color: blue;
+			background-color: cyan;
 			height: 300px;
 			width: 100%;
 			left: 0;
@@ -119,6 +120,20 @@
 		    border-radius: 0px 3px 3px 0px;
 		}
 
+		.cloud {
+			position: absolute;
+		    background-color: black;
+		    width: 1000px;
+		    height: 70px;
+		    top: 0px;
+		    left: 0px;
+		    border-radius: 0px 0px 50% 50%;
+		}
+
+		.cloud.two {
+			left: 922px;
+		}
+
 		.infinity {
 		    position: absolute;
 		    top: 311px;
@@ -159,6 +174,7 @@
 		}
 
 
+
 	</style>
 </head>
 <body>
@@ -166,7 +182,7 @@
 	<div class="boat">
 	</div>
 
-	<div class="water">
+	<div class="ocean">
 	</div>
 
 	<div class="mast">
@@ -203,6 +219,12 @@
 	</div>
 
 	<div class="infinity">
+	</div>
+
+	<div class="cloud one">
+	</div>
+
+	<div class="cloud two">
 	</div>
 
 </body>
